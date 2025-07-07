@@ -15,8 +15,11 @@ python password_strength_tool.py -p "MyP@ssw0rd!" -i John 2000 Tiger -o wordlist
 ✅ Leetspeak and year appending
 ✅ Exports .txt wordlist
 ✅ CLI interface with argparse
+
 ==========================================================================================================================================
 ==========================================================================================================================================
+
+
 📦 Dependencies to Install:
 bash - pip install zxcvbn nltk
 
