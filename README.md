@@ -1,4 +1,4 @@
-# Tutorial: Password_strength-analyzer_project
+# Password_strength_analyzer_project
 
 This project is a helpful tool that lets you **check how strong your passwords are** and *create custom lists of potential passwords* for testing. It evaluates passwords using a smart engine to give you a security score and feedback. Additionally, you can input personal details like names or dates, and it will generate a unique wordlist by intelligently varying these inputs and adding common words, which can then be saved for future use.
 
@@ -46,8 +46,6 @@ flowchart TD
 ---
 
 # Chapter 1: Graphical User Interface (GUI)
-
-Welcome to the **Password Strength Analyzer** project! In this first chapter, we're going to explore something you use every single day: the **Graphical User Interface (GUI)**.
 
 ### Why Do We Need a GUI?
 
@@ -209,10 +207,6 @@ Next, we'll explore another way to interact with programs, one that doesn't use 
 ---
 
  Chapter 2: Command-Line Interface (CLI)
-
-Welcome back! In our last chapter, [Graphical User Interface (GUI)](01_graphical_user_interface__gui__.md), we explored how a friendly visual interface, with its buttons and text boxes, makes programs easy to use for everyone. It's like having a car dashboard where you just click and see things happen.
-
-But what if you don't always need a dashboard? What if you want to tell the car exactly what to do using specific voice commands, perhaps even chaining them together for a longer journey without touching the wheel? This is where the **Command-Line Interface (CLI)** comes in!
 
 ### Why Do We Need a CLI?
 
@@ -438,10 +432,6 @@ Next, we'll dive deep into the brain of our project: the [Password Strength Engi
 
 # Chapter 3: Password Strength Engine
 
-Welcome back! In our last chapters, we learned about the [Graphical User Interface (GUI)](01_graphical_user_interface__gui__.md) and the [Command-Line Interface (CLI)](02_command_line_interface__cli__.md). These are the ways you, the user, tell our program what to do – whether by clicking buttons or typing commands.
-
-But once you type a password and hit "Analyze," what happens next? How does the program actually figure out if "MyDog123!" is a good password or a terrible one? This is where the **Password Strength Engine** comes in!
-
 ### Why Do We Need a Password Strength Engine?
 
 Imagine you just made a new password for an important account. You might *feel* like it's strong, but how can you be sure? Is "Password123" really that bad? What about "Gr3@tP@ssw0rd"? It's tricky for a human to keep track of all the common patterns, dictionary words, and easy-to-guess variations that hackers use.
@@ -605,9 +595,7 @@ Now that we know how to check password strength, let's move on to another powerf
 
 ---
 
-hapter 4: Custom Wordlist Generator
-
-Welcome back! In our last chapter, we explored the [Password Strength Engine](03_password_strength_engine_.md), the "brain" that checks how strong your password is. Now, let's switch gears to another powerful tool in our project: the **Custom Wordlist Generator**.
+# Chapter 4: Custom Wordlist Generator
 
 ### Why Do We Need a Custom Wordlist Generator?
 
@@ -843,10 +831,6 @@ Next, we'll dive deeper into where our program gets those "common words" and oth
 ---
 
 # Chapter 5: Lexical Data Source
-
-Welcome back! In our last chapter, [Custom Wordlist Generator](04_custom_wordlist_generator_.md), we learned how our program takes your personal details (like "Buddy" or "1998") and cleverly creates many variations. This is great for making a *personalized* list of potential passwords.
-
-But what about passwords that use very common English words, like "apple" or "house"? Even if these aren't related to your personal information, they are still very common weak passwords! How can our wordlist generator include these everyday words? This is where the **Lexical Data Source** comes in!
 
 ### Why Do We Need a Lexical Data Source?
 
